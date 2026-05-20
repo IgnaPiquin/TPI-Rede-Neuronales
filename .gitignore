@@ -1,28 +1,4 @@
-# Python
-__pycache__/
-*.py[cod]
 
-# Entornos virtuales
-.venv/
-venv/
-env/
 
-# Jupyter Notebooks
-.ipynb_checkpoints/
 
-# Configuraciones de editores
-.vscode/
-.idea/
 
-# Carpetas de datos locales y entrenamiento (pesados)
-datasets/
-runs/
-output/
-weights/
-
-# Modelos YOLO preentrenados grandes
-yolo*.pt
-
-# Permitir explícitamente subir los pesos finales del entrenamiento
-!weights/best.pt
-!best.pt
